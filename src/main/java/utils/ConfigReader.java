@@ -16,7 +16,7 @@ public class ConfigReader {
 			FileInputStream fis =new FileInputStream(propfis);
 			prop.load(fis);
 	}catch(Exception e) {
-		e.printStackTrace();
+		System.out.println(e);
 	}
 	
 	return prop;
